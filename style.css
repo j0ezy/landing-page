@@ -1,7 +1,6 @@
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 header{
@@ -9,7 +8,14 @@ header{
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    gap: 100px;
+}
+
+.header-pos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    width: 1500px;
 }
 
 ul{
@@ -24,7 +30,12 @@ ul{
 a{
     text-decoration: none;
 }
-
+.hero-pos{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+}
 .hero{
     border: 2px solid black;
     display: flex;
@@ -78,5 +89,10 @@ a{
 }
 
 .call-action > button{
-    flex: 0;
+    align-self: center;
+}
+
+.copyright{
+    text-align: center;
+    border: 2px solid black;
 }
