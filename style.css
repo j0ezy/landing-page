@@ -6,20 +6,23 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .header-pos{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
     width: 1500px;
 }
 
@@ -34,28 +37,54 @@ ul{
 
 a{
     text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .hero-pos{
-    border: 2px solid black;
     display: flex;
     justify-content: space-between;
     width: 1500px;
 }
 .hero{
-    border: 2px solid black;
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
     gap: 40px;
+    padding: 200px;
+}
+
+.hero-info > h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-info > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 5px 25px;
+    border-radius: 8px;
+    border-style: none;
+    color: #F9FAF8;
+    font-weight: 600;
 }
 
 .information{
-    border: 2px solid black;
+    padding: 50px;
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 .information-title{
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .card-info{
@@ -72,32 +101,65 @@ a{
 .border{
     height: 150px;
     width: 150px;
-    border: 2px solid black;
+    border: 2px solid #3882F6;
     border-radius: 15px;
 }
 
 .quote{
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote > p {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .quote-who{
-    align-self: flex-end;
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 18px;
 }
 
+footer{
+    padding: 50px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
 .call-action{
-    border: 2px solid black;
     display: flex;
     justify-content: center;
 }
 
-.call-action > button{
+.call-action-container{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    width: 1000px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 20px 0;
+}
+
+.call-action-text > h4{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.call-action-container > button{
     align-self: center;
+    border: #E5E7EB solid 2px;
 }
 
 .copyright{
+
+    background-color: #1f2937;
+    color: white;
     text-align: center;
-    border: 2px solid black;
 }
