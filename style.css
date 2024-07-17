@@ -1,1 +1,36 @@
 /* style css */
+
+body{
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 8px 256px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #f9fAf8;
+    margin-right: auto;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
