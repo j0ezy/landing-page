@@ -52,6 +52,7 @@ li a{
 .information h1{
     font-size: 48px;
     color: #f9fAf8;
+    font-weight: 900;
 }
 
 .information p{
@@ -68,4 +69,43 @@ li a{
     font-weight: bold;
     color: #E5E7EB;
     align-self: flex-start;
+}
+
+.panels{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 256px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.panels h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.card p{
+    text-align: center;
+}
+
+.card img{
+    border: 3px solid #3882f6;
+    border-radius: 10px;
 }
