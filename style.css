@@ -34,3 +34,38 @@ li a{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.hero{
+    display: flex;
+    padding: 150px 256px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+.information h1{
+    font-size: 48px;
+    color: #f9fAf8;
+}
+
+.information p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10%;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    align-self: flex-start;
+}
